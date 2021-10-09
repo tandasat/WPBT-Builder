@@ -1,0 +1,25 @@
+[Defines]
+  INF_VERSION                    = 1.27
+  BASE_NAME                      = WpbtBuilder
+  FILE_GUID                      = caa05c1d-c432-44a4-ac1e-9bc9682336b4
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  WpbtBuilder.c
+
+[Packages]
+  WpbtTestPkg/WpbtTestPkg.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  ShellCEntryLib
+  ShellLib
+  UefiLib
+
+[Protocols]
+  gEfiAcpiTableProtocolGuid             ## CONSUMES
+  gEfiLoadedImageProtocolGuid           ## CONSUMES
+  gEfiSimpleFileSystemProtocolGuid      ## CONSUMES

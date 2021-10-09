@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 1.27
+  PACKAGE_NAME                   = WpbtTestPkg
+  PACKAGE_GUID                   = 10394cc6-fc92-4fa6-946a-3f8914fc9f4e
+  PACKAGE_VERSION                = 1.00

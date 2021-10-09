@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            //
+            // Define a command that invokes build_this.py
+            //
+            "type": "shell",
+            "label": "EDK2 build",
+            "command": "python3 .vscode/build_this.py",
+            "args": [
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

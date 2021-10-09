@@ -1,0 +1,2 @@
+bootx64.efi is taken from
+https://github.com/tianocore/edk2/blob/edk2-stable201903/ShellBinPkg/UefiShell/X64/Shell.efi

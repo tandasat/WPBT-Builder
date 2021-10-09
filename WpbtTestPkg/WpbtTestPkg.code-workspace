@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "python3",
+		"files.associations": {
+			"*.c": "c",
+			"*.h": "c"
+		}
+	}
+}

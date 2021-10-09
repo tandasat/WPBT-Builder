@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //
+            // Defines a configuration to connects to the VMware gdb stub. Few
+            // things to note are:
+            // - "program" is actually unused. It just cannot be empty.
+            // - "cwd" is adjusted so that our .gdbinit is loaded.
+            //
+            "name": "Attach to gdbserver",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Build/WpbtTestPkg/NOOPT_GCC5/X64/MiniVisorDxe.efi",
+            "cwd": "${workspaceRoot}/../../",
+            "miDebuggerServerAddress": "localhost:8864",
+            "MIMode": "gdb"
+        }
+    ]
+}

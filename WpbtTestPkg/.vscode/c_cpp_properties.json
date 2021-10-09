@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            //
+            // Adds few paths so that intelisense can work against files in EDK2.
+            //
+            "name": "EDK2",
+            "includePath": [
+                "${workspaceFolder}/../MdePkg/Include",
+                "${workspaceFolder}/../MdePkg/Include/X64",
+                "${workspaceFolder}/../UefiCpuPkg/Include",
+                "${workspaceFolder}/../ShellPkg/Include",
+                "${workspaceFolder}/**"
+            ],
+            "cStandard": "c17"
+        }
+    ],
+    "version": 4
+}
